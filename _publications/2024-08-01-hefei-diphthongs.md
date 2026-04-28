@@ -7,7 +7,7 @@ excerpt: 'Modeled formants of seven rising diphthongs in Hefei Mandarin using GA
 date: 2024-08-01
 venue: '19th National Conference on Man-machine Speech Communication (NCMMSC 2024)'
 paperurl: 'https://yifanyang08.github.io/assets/papers/Qian_et_al2024.pdf'
-citation: '<b>Zhiheng Qian</b>, Huifang Kong, Yifan Yang. (2024). &quot;Dynamic Properties of Rising Diphthongs in Hefei Mandarin.&quot; <i>19th National Conference on Man-machine Speech Communication (NCMMSC 2024)</i>.'
+citation: 'Zhiheng Qian, Huifang Kong, and Yifan Yang. 2024. Dynamic Properties of Rising Diphthongs in Hefei Mandarin. In Proceedings of the 19th National Conference on Man-machine Speech Communication (NCMMSC 2024).'
 ---
 
 Modeled formants of seven rising diphthongs in Hefei Mandarin using GAMM and logistic functions. Analyzed the impact of context and glide on the properties of Hefei Mandarin diphthongs. Challenged the traditional view that all Hefei rising diphthongs are offset-dominant.

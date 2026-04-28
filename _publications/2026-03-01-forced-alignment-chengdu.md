@@ -6,7 +6,7 @@ permalink: /publication/2026-03-01-forced-alignment-chengdu
 excerpt: 'Developed a robust phonetic forced alignment system for Chengdu Mandarin. Devised a bootstrapping pipeline that leverages GMM-HMM generated pseudo-labels to fine-tune Wav2Vec2 for text-independent alignment, demonstrating SOTA performance against existing baselines on Chengdu Mandarin.'
 date: 2026-03-01
 venue: 'Submitted to Interspeech 2026'
-citation: '<b>Zhiheng Qian</b>, Aini Li, Hai Hu, Liang Zhao. (2026). &quot;Phonetic forced alignment for low-resource language varieties: Model training and evaluation on Chengdu Mandarin.&quot; <i>Submitted to Interspeech 2026</i>.'
+citation: 'Zhiheng Qian, Aini Li, Hai Hu, and Liang Zhao. 2026. Phonetic Forced Alignment for Low-Resource Language Varieties: Model Training and Evaluation on Chengdu Mandarin. Submitted to Interspeech 2026.'
 ---
 
 Developed a robust phonetic forced alignment system for Chengdu Mandarin. Devised a bootstrapping pipeline that leverages GMM-HMM generated pseudo-labels to fine-tune Wav2Vec2 for text-independent alignment, demonstrating SOTA performance against existing baselines on Chengdu Mandarin.
