@@ -2,21 +2,15 @@
 permalink: /
 title: "About"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-<section id="about">
+I am Zhiheng Qian, currently a student at Shanghai Jiao Tong University, expecting to graduate in Spring 2027. I am applying for PhD programs commencing in Fall 2027. My research interests center on natural language processing and speech processing, with a particular focus on MPP benchmarking of LMs, small-scale LMs, and automatic speech recognition.
 
-I am Zhiheng Qian. I am a student at Shanghai Jiao Tong University. I will graduate in Spring 2027 and am applying for a PhD program start in Fall 2027.
-
-My research interests lie in natural language processing and speech processing with a focus on automatic speech recognition.
-
-</section>
-
-<section id="publications">
 ## Publications
+{: #publications}
 
 {% assign pubs = site.publications | sort: 'date' | reverse %}
 {% if pubs.size > 0 %}
@@ -27,10 +21,8 @@ My research interests lie in natural language processing and speech processing w
 No publications yet.
 {% endif %}
 
-</section>
-
-<section id="portfolio">
 ## Portfolio
+{: #portfolio}
 
 {% assign works = site.portfolio | sort: 'date' | reverse %}
 {% if works.size > 0 %}
@@ -41,10 +33,8 @@ No publications yet.
 No portfolio items yet.
 {% endif %}
 
-</section>
-
-<section id="blog">
 ## Blog Posts
+{: #blog}
 
 {% assign posts = site.posts | where_exp: 'post', 'post.hidden != true' %}
 {% if posts.size > 0 %}
@@ -55,21 +45,12 @@ No portfolio items yet.
 No blog posts yet.
 {% endif %}
 
-</section>
-
-<section id="cv">
 ## CV
+{: #cv}
 
 - [View full CV]({{ '/cv/' | relative_url }})
 
-</section>
-
-<section id="guide">
 ## Guide
+{: #guide}
 
 - [View markdown guide]({{ '/markdown/' | relative_url }})
-
-</section>
-
-
-
