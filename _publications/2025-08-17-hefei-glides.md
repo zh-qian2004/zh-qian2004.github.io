@@ -6,6 +6,7 @@ permalink: /publication/2025-08-17-hefei-glides
 excerpt: 'Analyzed the temporal organization of prenuclear glides [j] and [w] in Hefei Mandarin. Revealed that both glides exhibit a rightward shift and lack C-centering effects, indicating they function as part of the rime rather than forming complex onsets.'
 date: 2025-08-17
 venue: 'Interspeech 2025'
+authors: 'Yifan Yang and Zhiheng Qian'
 paperurl: 'https://www.isca-archive.org/interspeech_2025/yang25i_interspeech.pdf'
 citation: 'Yifan Yang and Zhiheng Qian. 2025. Temporal Organization of Prenuclear Glides in Hefei Mandarin. In Proceedings of Interspeech 2025, pages 4768-4772.'
 ---

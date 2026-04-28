@@ -15,8 +15,8 @@ I am Zhiheng Qian, currently a student at Shanghai Jiao Tong University, expecti
 {% assign pubs = site.publications | sort: 'date' | reverse %}
 {% if pubs.size > 0 %}
 {% for pub in pubs %}
-- {% if pub.citation %}{{ pub.citation }}{% else %}{{ pub.title }}{% if pub.venue %}. <i>{{ pub.venue }}</i>{% endif %}.{% endif %}
-  [Details]({{ pub.url | relative_url }}){% if pub.paperurl %} | [PDF]({{ pub.paperurl }}){% endif %}
+- **[{{ pub.title }}]({{ pub.url | relative_url }})**{% if pub.paperurl %} \[[PDF]({{ pub.paperurl }})\]{% endif %}  
+  {{ pub.authors }}. {{ pub.date | date: "%Y" }}. *{{ pub.venue }}.*
 {% endfor %}
 {% else %}
 No publications yet.
