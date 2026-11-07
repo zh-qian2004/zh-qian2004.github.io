@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Zhiheng Qian, currently a student at Shanghai Jiao Tong University, expecting to graduate in Spring 2027. I am applying for PhD programs commencing in Fall 2027. My research interests center on natural language processing and speech processing, with a particular focus on MPP benchmarking of LMs, small-scale LMs, and automatic speech recognition.
+I am Zhiheng Qian, currently a student at Shanghai Jiao Tong University and a member of the X-LANCE Lab, expecting to graduate in Spring 2027. I am applying for PhD programs commencing in Fall 2027. My research interests center on speech understanding and natural language processing. My current topics include automatic speech recognition (ASR), multilingual NLP, and LLM agents.
 
 ## Publications
 {: #publications}
@@ -22,36 +22,7 @@ I am Zhiheng Qian, currently a student at Shanghai Jiao Tong University, expecti
 No publications yet.
 {% endif %}
 
-## Portfolio
-{: #portfolio}
-
-{% assign works = site.portfolio | sort: 'date' | reverse %}
-{% if works.size > 0 %}
-{% for item in works %}
-- [{{ item.title }}]({{ item.url | relative_url }})
-{% endfor %}
-{% else %}
-No portfolio items yet.
-{% endif %}
-
-## Blog Posts
-{: #blog}
-
-{% assign posts = site.posts | where_exp: 'post', 'post.hidden != true' %}
-{% if posts.size > 0 %}
-{% for post in posts limit: 12 %}
-- [{{ post.title }}]({{ post.url | relative_url }}){% if post.date %}, {{ post.date | date: "%Y-%m-%d" }}{% endif %}
-{% endfor %}
-{% else %}
-No blog posts yet.
-{% endif %}
-
 ## CV
 {: #cv}
 
 - [View full CV]({{ '/cv/' | relative_url }})
-
-## Guide
-{: #guide}
-
-- [View markdown guide]({{ '/markdown/' | relative_url }})
